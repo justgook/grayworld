@@ -8,12 +8,11 @@ meta:
     scripts/setup
     scripts/itemdef
     scripts/chardef
+    scripts/script_tables # all scripts definition is here
 doc: |
   Single binary file for whole game server
 seq:
   - id: setup
     type: setup
-  - id: itemdef
-    type: itemdef
-  - id: chardef
-    type: chardef
+  - id: scripts
+    type: scripts
