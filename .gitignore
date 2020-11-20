@@ -1,0 +1,12 @@
+#Logs
+logs
+*.log
+
+#OS stuff
+.DS_Store
+.vscode
+*.iml
+/.idea
+
+#Build
+target/*
